@@ -1,3 +1,8 @@
+# Weather App (React Native + Expo)
+
+Esta aplicación permite consultar el clima actual de cualquier ciudad usando la API de OpenWeatherMap.
+
+## Instrucciones de ejecución
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -10,6 +15,26 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
+2. Coloca tu API Key de OpenWeatherMap en el archivo `App.js` (reemplaza `TU_API_KEY_AQUI`). Puedes obtener una gratis en https://openweathermap.org/api
+
+3. Inicia la app con Expo:
+
+   ```sh
+   npm start
+   ```
+
+   Luego escanea el QR con la app de Expo Go en tu teléfono, o usa un emulador Android/iOS.
+
+## Características
+- Búsqueda de clima por ciudad
+- Visualización de temperatura, descripción, máximas y mínimas
+- Ícono representativo del clima
+- Manejo de errores (ciudad no encontrada, error de conexión)
+- Interfaz profesional y responsiva
+
+---
+
+**Actividad académica**: Consumo de API externa, petición HTTP, manejo de errores y visualización de datos en React Native.
 2. Start the app
 
    ```bash
