@@ -51,8 +51,5 @@
     "eslint-config-expo": "~9.2.0",
     "typescript": "~5.8.3"
   },
-  "private": true,
-  "browser": {
-    "react-native-maps": "./web-mocks/react-native-maps.js"
-  }
+  "private": true
 }
