@@ -1,0 +1,7 @@
+[
+  { "country": "BO", "name": "Bolivia", "cities": ["Cochabamba", "La Paz", "Santa Cruz de la Sierra", "Sucre", "El Alto"] },
+  { "country": "AR", "name": "Argentina", "cities": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "Salta"] },
+  { "country": "CL", "name": "Chile", "cities": ["Santiago", "Valparaíso", "Concepción", "Antofagasta", "Temuco"] },
+  { "country": "US", "name": "Estados Unidos", "cities": ["New York", "Los Angeles", "Chicago", "Miami", "San Francisco"] },
+  { "country": "ES", "name": "España", "cities": ["Madrid", "Barcelona", "Valencia", "Sevilla", "Bilbao"] }
+]

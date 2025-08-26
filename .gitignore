@@ -3,11 +3,31 @@
 # dependencies
 node_modules/
 
+# Expo/React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.tar.gz
+
+# macOS/Windows/Linux
+.DS_Store
+Thumbs.db
+
+# Android/iOS build
+android/
+ios/
+*.keystore
+
+# VSCode
+.vscode/
+
 # Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
+
 
 # Native
 .kotlin/
@@ -18,22 +38,29 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
+
 # Metro
 .metro-health-check*
+
 
 # debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
+
 # macOS
 .DS_Store
 *.pem
 
+
 # local env files
 .env*.local
+
 
 # typescript
 *.tsbuildinfo
 
+
 app-example
+

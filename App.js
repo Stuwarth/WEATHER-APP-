@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Keyboard, ActivityIndicator, Image, Alert } from 'react-native';
 
-const API_KEY = 'TU_API_KEY_AQUI'; // Reemplaza con tu API Key de OpenWeatherMap
+const API_KEY = 'd68bf3bd84e3dae089856035155edd27'; // Reemplaza con tu API Key de OpenWeatherMap
 
 export default function App() {
   const [city, setCity] = useState('');
